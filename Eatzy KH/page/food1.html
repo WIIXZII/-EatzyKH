@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Hut (BKK)</title>
+    <!-- tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#F72C5B",
+              secondary: "#FF748B",
+              accent1: "#A7D477",
+              accent2: "#E4F1AC",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Updated Font Awesome CDN for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/Food.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="breadcrumbs">
+        <a href="/page/home.html">Homepage</a>
+        <span class="separator">></span>
+        <a href="#">Phnom Penh</a>
+        <span class="separator">></span>
+        <span class="current">Pizza hut (BKK)</span>
+      </div>
+
+      <div class="container">
+        <div class="main-content">
+          <!-- Restaurant Header -->
+          <div class="restaurant-header">
+            <img
+              src="https://images.deliveryhero.io/image/fd-kh/kh-logos/cu3jm-logo.jpg"
+              alt="Pizza hut logo"
+              class="restaurant-logo"
+            />
+            <div class="restaurant-info">
+              <div class="restaurant-categories">
+                Pizza • Beverages • Western • Pasta • Snacks
+              </div>
+              <h1 class="restaurant-name">Pizza Hut (BKK)</h1>
+              <div class="min-order">No min. order</div>
+
+              <div class="rating-info">
+                <div class="star-rating">
+                  <i class="fas fa-star star-icon"></i>
+                  <span>4.9/5 (100+)</span>
+                </div>
+                <div class="rating-actions">
+                  <div>
+                    <a href="/page/notfound.html"><span>See reviews</span></a>
+                  </div>
+                  <a href="/page/notfound.html">
+                    <div>
+                      <i class="fas fa-info-circle"></i> <span>More info</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="restaurant-address">
+                #GIA, 33A Floor, St. Sopheak Mongkol, Koh Pich, Village 14,
+                Sangkat Tonle Basak, Chamkar Mon, Phnom Penh • 11636 km away •
+                <span class="map-link">Open in Maps</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Deals Section -->
+          <h2 class="section-heading">Available deals</h2>
+          <div class="promo-card">
+            <div class="promo-title">
+              <i class="fas fa-percent"></i>
+              Up to 80% off
+            </div>
+            <div class="promo-description">
+              No min. order required. Valid for selected items. Auto applied.
+            </div>
+          </div>
+
+          <!-- Popular Menu Section -->
+          <div class="menu-category">
+            <div class="category-header">
+              <i class="fas fa-fire category-icon"></i>
+              <h2 class="category-title">Popular</h2>
+            </div>
+            <div class="category-description">Most ordered right now.</div>
+
+            <div class="menu-grid">
+              <!-- Menu Item 1 -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">MY BOX-SET A</div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$5.50</span>
+                      <span class="original-price">$9.22</span>
+                    </div>
+                    <div class="menu-item-description">
+                      PRAWN AGLIO OLIO, COCA-COLA 390ml, GARLIC BREAD 3Pcs
+                    </div>
+                    <div class="popular-tag">
+                      <i class="fas fa-fire"></i>
+                      Popular
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/3523528.jpg?width=187.5&height=187.5"
+                      alt="MY BOX-SET A"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Menu Item 2 -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">MY BOX-SET B</div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                      <span class="original-price">$10.15</span>
+                    </div>
+                    <div class="menu-item-description">
+                      Melt Hawaiian, COCA-COLA 390ml, GARLIC BREAD 3Pcs
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/3523532.jpg?width=187.5&height=187.5"
+                      alt="MY BOX-SET B"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Menu Item 3 -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">MY BOX-SET C</div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                      <span class="original-price">$9.22</span>
+                    </div>
+                    <div class="menu-item-description">
+                      PAN TRIO CHICKEN BBQ size S, COCA-COLA 390ml, GARLIC BREAD
+                      3Pcs
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/3523535.jpg?width=187.5&height=187.5"
+                      alt="MY BOX-SET C"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Menu Item 4 -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">Tropical Seafood Pan Pizza</div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                      <span class="original-price">$10.15</span>
+                    </div>
+                    <div class="menu-item-description">
+                      Cheese, pineapple, mussel, squid, shrimp, crabstick, and
+                      thousand island sauce
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/1715874.jpg?width=187.5&height=187.5"
+                      alt="Tropical Seafood Pan Pizza"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Menu Item 5 -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">Cheese Pan Pizza</div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                      <span class="original-price">$10.15</span>
+                    </div>
+                    <div class="menu-item-description">
+                      Cheese and pizza sauce
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/1715867.jpg?width=187.5&height=187.5"
+                      alt="Cheese Pan Pizza"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Menu Item 6 -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">Pepperoni Pan Pizza</div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                      <span class="original-price">$10.15</span>
+                    </div>
+                    <div class="menu-item-description">
+                      Cheese, pepperoni and pizza sauce
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/1715862.jpg?width=187.5&height=187.5"
+                      alt="Pepperoni Pan Pizza"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- New Menu Section -->
+          <div class="menu-category">
+            <div class="category-header">
+              <h2 class="category-title">New Menu</h2>
+            </div>
+
+            <div class="menu-grid">
+              <!-- Menu Item 1 -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">
+                      Fried Tulip Chicken Original
+                    </div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                    </div>
+                    <div class="menu-item-description">
+                      Deep Fried Chicken with Original Flavor
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/3566317.jpg?width=187.5&height=187.5"
+                      alt="Fried Tulip Chicken Original"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Menu Item 2 -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">Fried Tulip Chicken Spicy</div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                    </div>
+                    <div class="menu-item-description">
+                      Deep Fried Chicken with Spicy Flavor
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/3566318.jpg?width=187.5&height=187.5"
+                      alt="Fried Tulip Chicken Spicy"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Combo Set Section -->
+          <div class="menu-category">
+            <div class="category-header">
+              <h2 class="category-title">MY BOX- COMBO SET 40.34% off</h2>
+            </div>
+
+            <div class="menu-grid">
+              <!-- Menu Item 1 -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">MY BOX-SET A</div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                      <span class="original-price">$9.22</span>
+                    </div>
+                    <div class="menu-item-description">
+                      PRAWN AGLIO OLIO, COCA-COLA 390ml, GARLIC BREAD 3Pcs
+                    </div>
+                    <div class="popular-tag">
+                      <i class="fas fa-fire"></i>
+                      Popular
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/3523528.jpg?width=187.5&height=187.5"
+                      alt="MY BOX-SET A"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Melts -->
+          <div class="menu-category">
+            <div class="category-header">
+              <h2 class="category-title">Melts</h2>
+            </div>
+
+            <div class="menu-grid">
+              <!-- First Card -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">
+                      Fried Tulip Chicken Original
+                    </div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                    </div>
+                    <div class="menu-item-description">
+                      Deep Fried Chicken with Original Flavor
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/3426736.jpg?width=187.5&height=187.5"
+                      alt="Fried Tulip Chicken Original"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Second Card -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">
+                      Fried Tulip Chicken Original
+                    </div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                    </div>
+                    <div class="menu-item-description">
+                      Deep Fried Chicken with Original Flavor
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/3426734.jpg?width=187.5&height=187.5"
+                      alt="Fried Tulip Chicken Original"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Third Card -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">
+                      Fried Tulip Chicken Original
+                    </div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                    </div>
+                    <div class="menu-item-description">
+                      Deep Fried Chicken with Original Flavor
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/3426733.jpg?width=187.5&height=187.5"
+                      alt="Fried Tulip Chicken Original"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Fourth Card -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">
+                      Fried Tulip Chicken Original
+                    </div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                    </div>
+                    <div class="menu-item-description">
+                      Deep Fried Chicken with Original Flavor
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/3426730.jpg?width=187.5&height=187.5"
+                      alt="Fried Tulip Chicken Original"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Fifth Card -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">
+                      Fried Tulip Chicken Original
+                    </div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                    </div>
+                    <div class="menu-item-description">
+                      Deep Fried Chicken with Original Flavor
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/3426735.jpg?width=187.5&height=187.5"
+                      alt="Fried Tulip Chicken Original"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Thin N' Crispy Crust -->
+          <div class="menu-category">
+            <div class="category-header">
+              <h2 class="category-title">Thin N' Crispy Crust</h2>
+            </div>
+
+            <div class="menu-grid">
+              <!-- First Card -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">
+                      Fried Tulip Chicken Original
+                    </div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                    </div>
+                    <div class="menu-item-description">
+                      Deep Fried Chicken with Original Flavor
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/1715926.jpg?width=187.5&height=187.5"
+                      alt="Fried Tulip Chicken Original"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Second Card -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">
+                      Fried Tulip Chicken Original
+                    </div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                    </div>
+                    <div class="menu-item-description">
+                      Deep Fried Chicken with Original Flavor
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/1715925.jpg?width=187.5&height=187.5"
+                      alt="Fried Tulip Chicken Original"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Additional Thin Crust items... -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">
+                      Fried Tulip Chicken Original
+                    </div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                    </div>
+                    <div class="menu-item-description">
+                      Deep Fried Chicken with Original Flavor
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/1715924.jpg?width=187.5&height=187.5"
+                      alt="Fried Tulip Chicken Original"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">
+                      Fried Tulip Chicken Original
+                    </div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                    </div>
+                    <div class="menu-item-description">
+                      Deep Fried Chicken with Original Flavor
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/1715923.jpg?width=187.5&height=187.5"
+                      alt="Fried Tulip Chicken Original"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chicken Wings & Appetizers -->
+          <div class="menu-category">
+            <div class="category-header">
+              <h2 class="category-title">Chicken Wings & Appetizers</h2>
+            </div>
+
+            <div class="menu-grid">
+              <!-- First Card -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">
+                      Fried Tulip Chicken Original
+                    </div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                    </div>
+                    <div class="menu-item-description">
+                      Deep Fried Chicken with Original Flavor
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/1715825.jpg?width=187.5&height=187.5"
+                      alt="Fried Tulip Chicken Original"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Second Card -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">
+                      Fried Tulip Chicken Original
+                    </div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                    </div>
+                    <div class="menu-item-description">
+                      Deep Fried Chicken with Original Flavor
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/1715826.jpg?width=187.5&height=187.5"
+                      alt="Fried Tulip Chicken Original"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Additional Wing items... -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">
+                      Fried Tulip Chicken Original
+                    </div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                    </div>
+                    <div class="menu-item-description">
+                      Deep Fried Chicken with Original Flavor
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/1715827.jpg?width=187.5&height=187.5"
+                      alt="Fried Tulip Chicken Original"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Italian Pasta -->
+          <div class="menu-category">
+            <div class="category-header">
+              <h2 class="category-title">Italian Pasta</h2>
+            </div>
+
+            <div class="menu-grid">
+              <!-- First Card -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">
+                      Fried Tulip Chicken Original
+                    </div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                    </div>
+                    <div class="menu-item-description">
+                      Deep Fried Chicken with Original Flavor
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/1715835.jpg?width=187.5&height=187.5"
+                      alt="Fried Tulip Chicken Original"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Second Card -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">
+                      Fried Tulip Chicken Original
+                    </div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                    </div>
+                    <div class="menu-item-description">
+                      Deep Fried Chicken with Original Flavor
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/1715836.jpg?width=187.5&height=187.5"
+                      alt="Fried Tulip Chicken Original"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Additional Pasta items... -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">
+                      Fried Tulip Chicken Original
+                    </div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                    </div>
+                    <div class="menu-item-description">
+                      Deep Fried Chicken with Original Flavor
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/2134232.jpg?width=187.5&height=187.5"
+                      alt="Fried Tulip Chicken Original"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Beverages -->
+          <div class="menu-category">
+            <div class="category-header">
+              <h2 class="category-title">Beverages</h2>
+            </div>
+
+            <div class="menu-grid">
+              <!-- First Card -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">
+                      Fried Tulip Chicken Original
+                    </div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                    </div>
+                    <div class="menu-item-description">
+                      Deep Fried Chicken with Original Flavor
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/1716084.jpg?width=187.5&height=187.5"
+                      alt="Fried Tulip Chicken Original"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Second Card -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">
+                      Fried Tulip Chicken Original
+                    </div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                    </div>
+                    <div class="menu-item-description">
+                      Deep Fried Chicken with Original Flavor
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/1716085.jpg?width=187.5&height=187.5"
+                      alt="Fried Tulip Chicken Original"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Additional Beverage items... -->
+              <div class="menu-item">
+                <div class="menu-item-content">
+                  <div class="menu-item-info">
+                    <div class="menu-item-name">
+                      Fried Tulip Chicken Original
+                    </div>
+                    <div class="menu-item-price">
+                      <span class="current-price">$6.50</span>
+                    </div>
+                    <div class="menu-item-description">
+                      Deep Fried Chicken with Original Flavor
+                    </div>
+                  </div>
+                  <div class="menu-item-image-container">
+                    <img
+                      src="https://images.deliveryhero.io/image/fd-kh/Products/1715931.jpg?width=187.5&height=187.5"
+                      alt="Fried Tulip Chicken Original"
+                      class="menu-item-image"
+                    />
+                    <div class="add-button"><i class="fas fa-plus"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cart Section -->
+        <div class="cart-section">
+          <div class="cart-container">
+            <div class="delivery-toggle">
+              <div class="delivery-option active">Delivery</div>
+              <div class="delivery-option">Pick Up</div>
+            </div>
+
+            <div class="cart-empty">
+              <img
+                src="/img/Shopping bag.gif"
+                alt="Foodpanda logo"
+                class="cart-logo"
+              />
+              <h3 class="cart-empty-title">Hungry?</h3>
+              <p class="cart-empty-text">
+                You haven't added anything to your cart!
+              </p>
+            </div>
+
+            <div class="cart-total">
+              <div>
+                <div class="total-label">Total</div>
+                <div class="total-note">(incl. fees and tax)</div>
+              </div>
+              <div class="total-price">$0</div>
+            </div>
+
+            <div class="checkout-button">Review payment and address</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+      <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+          <div>
+            <div class="flex items-center mb-4">
+              <img
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-ylPBJNWwRD10kEvX4v71rf0L4ohjqW.png"
+                alt="Eatzy KH Logo"
+                class="h-10 w-auto bg-white rounded-full p-1"
+              />
+              <span class="ml-2 text-xl font-bold">Eatzy KH</span>
+            </div>
+            <p class="text-gray-400 mb-4">
+              Delicious food delivered to your doorstep.
+            </p>
+            <div class="flex space-x-4">
+              <a
+                href="/page/notfound.html"
+                class="text-gray-400 hover:text-white transition-colors duration-300"
+              >
+                <i class="fab fa-twitter text-xl"></i>
+              </a>
+              <a
+                href="/page/notfound.html"
+                class="text-gray-400 hover:text-white transition-colors duration-300"
+              >
+                <i class="fab fa-instagram text-xl"></i>
+              </a>
+              <a
+                href="/page/notfound.html"
+                class="text-gray-400 hover:text-white transition-colors duration-300"
+              >
+                <i class="fab fa-facebook-f text-xl"></i>
+              </a>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="/page/home.html"
+                  class="text-gray-400 hover:text-white transition-colors duration-300"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/page/About.html"
+                  class="text-gray-400 hover:text-white transition-colors duration-300"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/page/province.html"
+                  class="text-gray-400 hover:text-white transition-colors duration-300"
+                  >Explore</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/page/service.html"
+                  class="text-gray-400 hover:text-white transition-colors duration-300"
+                  >Become a Partner</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/page/service.html"
+                  class="text-gray-400 hover:text-white transition-colors duration-300"
+                  >Careers</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold mb-4">Support</h3>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="/page/notfound.html"
+                  class="text-gray-400 hover:text-white transition-colors duration-300"
+                  >Help Center</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/page/service.html"
+                  class="text-gray-400 hover:text-white transition-colors duration-300"
+                  >FAQ</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/page/notfound.html"
+                  class="text-gray-400 hover:text-white transition-colors duration-300"
+                  >Contact Us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/page/service.html"
+                  class="text-gray-400 hover:text-white transition-colors duration-300"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/page/notfound.html"
+                  class="text-gray-400 hover:text-white transition-colors duration-300"
+                  >Terms of Service</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold mb-4">Contact</h3>
+            <ul class="space-y-2">
+              <li class="flex items-start">
+                <i class="fas fa-map-marker-alt mr-2 mt-1 text-primary"></i>
+                <span class="text-gray-400"
+                  >123 Delivery St, Phnom Penh, Cambodia</span
+                >
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-envelope mr-2 mt-1 text-primary"></i>
+                <span class="text-gray-400">info@eatzykh.com</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-phone-alt mr-2 mt-1 text-primary"></i>
+                <span class="text-gray-400">(855) 123-456-789</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="border-t border-gray-800 pt-8">
+          <p class="text-center text-gray-400">
+            © 2025 Eatzy KH. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
